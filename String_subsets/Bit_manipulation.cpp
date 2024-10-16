@@ -1,7 +1,7 @@
 /*
     Bit manipulation method to generate all possible subsets of a given array
 
-    Time complexity: 2^n (n is the lenght of the string)
+    Time complexity: n * 2^n (n is the lenght of the string)
     Space complexity: 2^n (if we would store avery single subset)
     Space complexity: 1 (because we print the subsets)
 */
