@@ -1,3 +1,10 @@
+/*
+    Recursive method to generate all possible subsets of a given array using backtracking.
+
+    Time complexity: 2^n (n is the lenght of the array)
+    Space complexity: 2^n (because we store avery single subset)
+    Space complexity: n (if we would print the subsets)
+*/
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -35,7 +42,7 @@ vector<vector<int> > subsets(vector<int>& A) {
 
 // Driver code
 int main() {
-    vector<int> array = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ,15};
+    vector<int> array = {0, 1, 2};
     vector<vector<int> > res = subsets(array);
 
     // Print the generated subsets
