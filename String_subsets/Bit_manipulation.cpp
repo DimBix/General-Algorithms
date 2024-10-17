@@ -2,11 +2,13 @@
     Bit manipulation method to generate all possible subsets of a given array
 
     Time complexity: n * 2^n (n is the lenght of the array)
-    Space complexity: 2^n (if we would store avery single subset)
     Space complexity: 1 (because we print the subsets)
+    Space complexity: n * 2^n (if we would store avery single subset)
+
 
     This code is good to understand the general idea of bit manipulation but not efficient
-    n * 2^n is not the best time complexity to generate all subsets
+    n * 2^n is not the best time complexity to generate all subsets. With backtracking we can generate them (and store them) 
+    in 2^n time, to print them, however, we need n * 2^n time
 */
 #include <iostream>
 using namespace std;

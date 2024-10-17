@@ -2,7 +2,7 @@
     Recursive method to generate all possible subsets of a given array using backtracking.
 
     Time complexity: n * 2^n (n is the lenght of the array) (because we print them, line 49, otherwise it would be only 2^n)
-    Space complexity: 2^n (because we store avery single subset)
+    Space complexity: n * 2^n (because we store every single subset)
     Space complexity: n (if we would print the subsets)
 */
 #include <iostream>
