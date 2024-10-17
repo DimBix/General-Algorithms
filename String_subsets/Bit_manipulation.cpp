@@ -4,6 +4,9 @@
     Time complexity: n * 2^n (n is the lenght of the array)
     Space complexity: 2^n (if we would store avery single subset)
     Space complexity: 1 (because we print the subsets)
+
+    This code is good to understand the general idea of bit manipulation but not efficient
+    n * 2^n is not the best time complexity to generate all subsets
 */
 #include <iostream>
 using namespace std;
@@ -31,7 +34,7 @@ void findSubsets(int nums[], int n) {
 // Driver Code
 int main() {
 
-    int arr[] = { 1, 2, 3 };
+    int arr[] = { 1, 2, 3, 4, 5, 6, 7, 8};
     int n = sizeof(arr)/sizeof(arr[0]);
     findSubsets(arr, n);
 }
