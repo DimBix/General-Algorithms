@@ -2,8 +2,8 @@
     Bit manipulation method to generate all possible subsets of a given array
 
     Time complexity: n * 2^n (n is the lenght of the array)
-    Space complexity: 1 (because we print the subsets)
-    Space complexity: n * 2^n (if we would store avery single subset)
+    Space complexity: n (because we print the subsets)
+    Space complexity: n * 2^n (if we would store every single subset)
 
 
     This code is good to understand the general idea of bit manipulation but not efficient
